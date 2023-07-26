@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.Principal{
+    border: 10px solid rgba(49, 46, 46, 0.392);
+    height: 700px;
+    width: 50%;
+    border-radius: 10px;
+    padding: 5px;
+}
+.SuperPadre{
+    gap: 2px;
+    padding: 5px;
+}
+.x{
+    padding: 2px;
+    gap: 2px;
+}
+   .Hijo1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    background-color: rgb(245, 245, 245);
+    border : 5px solid rgb(99, 204, 130);
+    width: 100%;
+    height: 15%;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 3px;
+   }
+   .Hijo2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    background-color: rgb(245, 245, 245);
+    border: 5px solid rgb(182, 106, 182);
+    width: 100%;
+    height: 10%;
+    border-radius: 5px;
+    padding: 10px;
+    gap: 3px;
+   }
+   .Hijo3{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 63%;
+    gap: 3px;
+   }
+       .Nieto1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        background-color: rgb(245, 245, 245);
+        border: 5px solid rgb(159, 159, 235);
+        width: 65%;
+        border-radius: 5px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+        margin: 3px;
+       }
+           .Bisnieto1{
+            border: 5px solid green;
+            border-radius: 5px;
+            height: 150px;
+            padding: 10px;
+            flex-direction: column;
+            gap: 2px;
+           }
+             .Abuela{
+                height: 400px;
+                margin: 3px;
+             }
+                 .Bisnieto2{
+                  border: 5px solid rgb(187, 162, 197);
+                  border-radius: 5px;
+                  height: 150px;
+                  width: 100%;
+                  padding: 10px;
+                  }
+                  .Bisnieto3{
+                  border: 5px solid rgb(187, 162, 197);
+                  border-radius: 5px;
+                  height: 150px;
+                  width: 100%;
+                  padding: 10px;
+                  }
+                  .Bisnieto4{
+                  border: 5px solid rgb(230, 230, 99);
+                  border-radius: 5px;
+                  height: 100px;
+                  width: 100%;
+                  padding: 5px;
+                  }
+       .Nieto2{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        background-color: rgb(245, 245, 245);
+        border: 5px solid rgb(190, 101, 63);
+        width: 35%;
+        border-radius: 5px;
+        padding: 10px;
+        gap: 2px;
+        margin: 3px;
+       }
+           .Bisnieto5{
+            border: 5px solid rgb(87, 87, 159);
+            border-radius: 5px;
+            height: 45%;
+            padding: 10px;
+            margin: 3px;
+           }
+           .Bisnieto6{
+            border: 5px solid rgb(87, 87, 159);
+            border-radius: 5px;
+            height: 46%;
+            padding: 10px;
+            margin: 3px;
+           }
+    .Hijo4{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        background-color: rgb(245, 245, 245);
+        border: 5px solid yellow;
+        height: 110px;
+        border-radius: 5px;
+        padding: 10px;
+        gap: 2px;
+        margin: 3px;
+    }

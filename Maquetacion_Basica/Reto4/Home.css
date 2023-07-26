@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+.x{
+    color: white;
+}
+.Barra{
+    font-size: 30px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+}
+    .Home{
+      background-color: black;
+      color: azure;
+      text-align: center;
+      border: 2px solid black;
+      width: 100%;
+    }
+    .Galeria{
+      background-color: black;
+      color: azure;
+      text-align: center;
+      border: 2px solid black;
+      width: 100%;
+    }
+    .Blog{
+      background-color: black;
+      color: azure;
+      text-align: center;
+      border: 2px solid black;
+      width: 100%;
+    }
+.Contenido{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 550px;
+    align-content: center;
+    padding: 70px;
+}
+    .Contenido1{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+    }
+    .Contenido2{
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+    }
