@@ -1,0 +1,235 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.EquipoPrincipal{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+.Barra{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    border-radius: 15px;
+}
+.Logo{
+    height: 80px;
+}
+.x{
+    color: white;
+}
+.Contacto{
+    font-size: 32px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+    height: 80px;
+    padding: 20px;
+    width: 100%;
+}
+.Cursos{
+    font-size: 32px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+    height: 80px;
+    padding: 20px;
+    width: 100%;
+}
+.Equipo{
+    font-size: 32px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+    height: 80px;
+    padding: 20px;
+    width: 100%;
+}
+.Codenotch{
+    font-size: 32px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+    height: 80px;
+    padding: 20px;
+    width: 100%;
+}
+
+
+.Contenido{
+    display: flex;
+    flex-direction: column;
+
+    height: 90vh;
+    width: 100%;
+    gap: 12px;
+    padding: 12px;
+
+    background-image: url(imagenes/final.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+    .Profesional1{
+        display: flex;
+        flex-direction: row;
+
+        width: 100%;
+        height: 45vh;
+        gap: 12px;
+    }
+        .Profesor1{
+           display: flex;
+           flex-direction: row;
+           border: 5px solid blue;
+
+           width: 33.5%;
+           height: 100%;
+           border-radius: 5px;
+        }
+
+        .Profesor2{
+           display: flex;
+           flex-direction: row;
+           border: 5px solid blue;
+
+           width: 33.5%;
+           height: 100%;
+           border-radius: 5px;
+        }
+
+        .Profesor3{
+           display: flex;
+           flex-direction: row;
+           border: 5px solid blue;
+
+           width: 33.5%;
+           height: 100%;
+           border-radius: 5px;
+        }
+
+    .Profesional2{
+        display: flex;
+        flex-direction: row;
+
+        width: 100%;
+        height: 45vh;
+        gap: 12px;
+    }
+
+    .Imagen1{
+        width: 50%;
+        height: 100%;
+
+        background-image: url(imagenes/Profesional3.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .Imagen2{
+        width: 50%;
+        height: 100%;
+        background-image: url(imagenes/Profesor3.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .Imagen3{
+        width: 50%;
+        height: 100%;
+
+        background-image: url(imagenes/Profesor4.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .Imagen4{
+        width: 50%;
+        height: 100%;
+
+        background-image: url(imagenes/Profesor5.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .Imagen5{
+        width: 50%;
+        height: 100%;
+
+        background-image: url(imagenes/Profesor6.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .Imagen6{
+        width: 50%;
+        height: 100%;
+
+        background-image: url(imagenes/Profesor7.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+
+    .Texto{
+        width: 50%;
+        height: 100%;
+
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 18px;
+        text-align: end;
+
+        background-color:  rgba(0, 0, 255, 0.401);
+        color: white;
+
+    }
+       .Name{
+        font-size: 35px;
+       }
+       .Trans{
+        height: 50%;
+        width: 100%;
+       }
+       .Conten{
+        font-size: 17px
+       }
+
+
+.Final{
+    height: 20vh;
+    width: 100%;
+    background-color: black;
+    padding: 20px;
+}
+.RedesSociales{
+    width: 100%;
+    height: 100px;
+    display: flex;
+
+    color: white;
+    flex-direction: row;
+    font-size: 40px;
+
+    padding: 30px;
+    justify-content: space-evenly;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+       .Instagram{
+          height: 50%;
+          border-radius: 5px;
+        }
+        .Facebook{
+          height: 50%;
+          border-radius: 5px;
+        }
+        .Linkelin{
+          height: 50%;
+          border-radius: 5px;
+        }
+        .y{
+          font-size: 100%;
+          color: white;
+        }
