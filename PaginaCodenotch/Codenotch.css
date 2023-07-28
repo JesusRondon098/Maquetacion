@@ -1,0 +1,234 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.CodenotchPrincipal{
+    display: flex;
+    flex-direction: column;
+    height: 225vh;
+    width: 100vw;
+}
+.Barra{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    border-radius: 15px;
+}
+.Logo{
+    height: 80px;
+}
+.x{
+    color: white;
+}
+.Contacto{
+    font-size: 32px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+    height: 80px;
+    padding: 20px;
+    width: 100%;
+}
+.Cursos{
+    font-size: 32px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+    height: 80px;
+    padding: 20px;
+    width: 100%;
+}
+.Equipo{
+    font-size: 32px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+    height: 80px;
+    padding: 20px;
+    width: 100%;
+}
+.Codenotch{
+    font-size: 32px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+    height: 80px;
+    padding: 20px;
+    width: 100%;
+}
+
+
+.Contenido{
+    width: 100%;
+    height: 210vh;
+
+    display: flex;
+    flex-direction: column;
+}
+     .Parte1{
+        height: 85vh;
+
+        display: flex;
+        flex-direction: row;
+     }
+        .Texto{
+            height: 100%;
+            width: 50%;
+
+            background-color: blue;
+            color: white;
+            padding: 40px
+        }
+            .Texto1{
+                font-size: 500%;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+            .Interior1{
+                font-size: 300%;
+                color: rgb(251, 222, 2);
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .Interior1-1{
+                font-size: 300%;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                text-align: right;
+            }
+            .Texto1-2{
+                font-size: 150%;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+            .Interior1-2{
+                font-size: 320%;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+            .Texto1-4{
+                font-size: 100%;
+                text-align: end;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+        .Imagen1{
+            height: 100%;
+            width: 60%;
+
+            background-repeat: no-repeat;
+            background-size:cover;
+
+            background-image: url(imagenes/codenotch.jpg);
+            padding: 50px;
+        }
+            
+                
+            
+     .Parte2{
+        height: 40vh;
+
+        display: flex;
+        flex-direction: row;
+     }
+       .Imagen2{
+        background-repeat: no-repeat;
+        background-size:cover;
+        width: 100%;
+        height: 100%;
+       }
+     .Parte3{
+        height: 85vh;
+
+        display: flex;
+        flex-direction: row;
+     }
+        .Texto3{
+            width: 60%;
+
+            padding: 40px;
+        }
+           .Titulo{
+            font-family:Georgia, 'Times New Roman', Times, serif ;
+            font-size: 350%;
+           }
+           .Contenido1{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 200%;
+           }
+           .Contenido2{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 100%;
+           }
+           .Contenido3{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 150%;
+           }
+        .Imagen3{
+            background-color: blue;
+            width: 40%;
+
+            display: flex;
+            flex-direction: column;
+            padding: 40px;
+            gap:30px;
+            color:white;
+
+            font-size: 200%;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+            .Empleabilid{
+                height: 100%;
+                width: 100%;
+                padding: 5px;
+            }
+            .Salario{
+                height: 100%;
+                width: 100%;
+                padding: 5px;
+            }
+            .Ediciones{
+                height: 100%;
+                width: 100%;
+                padding: 5px;
+            }  
+            .Numero{
+                font-size: 200%;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+.Final{
+  height: 32vh;
+  background-color: black;
+  width: 100%;
+  height: 15vh;
+}
+.RedesSociales{
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+    color: white;
+    flex-direction: row;
+    font-size: 40px;
+
+    padding: 30px;
+    justify-content: space-evenly;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+       .Instagram{
+          height: 50%;
+          border-radius: 5px;
+        }
+        .Facebook{
+          height: 50%;
+          border-radius: 5px;
+        }
+        .Linkelin{
+          height: 50%;
+          border-radius: 5px;
+        }
+        .y{
+          font-size: 100%;
+          color: white;
+        }
