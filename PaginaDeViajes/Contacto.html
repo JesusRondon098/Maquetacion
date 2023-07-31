@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="Javascript.js"></script>
+    <title>Contacto</title>
+</head>
+<body>
+<link rel="stylesheet" href="Contacto.css">
+<div class="ContactosPrincipal">
+    <div class="Barra">
+        <img src="Imagenes/LogoCarrefur.png" class="Logo">
+        <div class="EspacioBarra"></div>
+        <div class="Inicio"><a href="Inicio.html" style="text-decoration:none" class="x">Inicio</a></div>
+        <div class="Viajes"><a href="Viajes.html" style="text-decoration:none" class="x">Viajes</a></div>
+        <div class="Contacto"><a href="Contacto.html" style="text-decoration:none" class="x">Contacto</a></div>
+        <div class="EspacioFinalBarra"></div>
+    </div>
+<div class="Contenido">
+    <div class="Formulario">
+    <form class="ContenidoFormulario">
+        <label>Nombres:</label><br>
+        <input type="text" class="Nombre" id="Nombre"><br>
+        <label>Apellidos: </label><br>
+        <input type="text" class="Apellido" id="Apellido"><br>
+        <label>Movil:</label><br>
+        <input type="number" class="Movil" id="Movil"><br>
+        <label>Correo: </label><br>
+        <input type="email"class="Correo" id="Correo"><br>
+        <input type="button" value="Enviar" onclick="devuelve()" class="Enviar"><br>
+        <button type="reset" class="Limpiar">Limpiar</button>
+    </form>
+    </div>
+    <div class="Texto" >
+        <div id="print"></div>
+    </div>
+</div>
+<div class="Bajo">
+    <div class="Cuadro1">
+        <p class="Marca">Carrefur Viajes</p>
+        <p class="Premio">Premiado con el "Premio a la excelencia 2023"</p>
+        <div class="LogoPremio"></div>
+    </div>
+    <div class="Vacio">
+        <div class="RedesSociales">
+            <p>Siguenos en nuestras redes sociales:</p>
+        </div>
+        <div class="Instagran">
+            <p>.Instagran</p>
+            <img src="Imagenes/LogoInstagran.png" class="i">
+        </div>
+        <div class="Facebook">
+            <p>.Facebook</p>
+            <img src="Imagenes/FacebookLogo.png" class="i">
+        </div>
+    </div>
+    <div class="Cuadro2"></div>
+</div> 
+</div>
+</body>
+</html>

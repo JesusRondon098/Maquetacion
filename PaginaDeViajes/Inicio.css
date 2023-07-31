@@ -1,0 +1,276 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.ViajesPrincipal{
+    height: 210vh;
+    width: 100%;
+}
+   .Barra{
+    height: 12vh;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    font-size: 26px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   }
+              .x{
+                color:rgb(36, 36, 224);
+              }
+        .Logo{
+            height: 15hv;
+            width: 15%;
+            margin: 5px;
+            border-radius: 5px;
+            border: 2px solid rgb(36, 36, 224);
+        }
+        .EspacioBarra{
+            height: 15hv;
+            width: 50%;
+        }
+        .Inicio{
+            height: 15vh;
+            width: 10%;
+            text-align: end;
+            padding: 25px;
+        }
+        .Viajes{
+            height: 15vh;
+            width: 10%;
+            text-align: end;
+            padding: 25px;
+        }
+        .Contacto{
+            height: 15vh;
+            width: 10%;
+            text-align: end;
+            padding: 25px;
+        }
+        .EspacioFinalBarra{
+            height: 15vh;
+            width: 5%;
+        }
+    .Descripcion{
+        border-bottom:5px solid white;
+        width: 100%;
+        height: 90vh;
+        padding: 25px;
+        gap: 5px;
+
+        background-image: url(Imagenes/FondoDescripcion.jpg);
+        background-repeat: no-repeat;
+        background-size:cover;
+
+        font-size: 150px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: rgb(36, 36, 224);
+        text-align: right;
+    }
+    .GO{
+        color: gold;
+        font-size: 100px;
+    }
+    .Ofertas{
+        width: 100%;
+        height: 90vh;
+
+        display: flex;
+        flex-direction: column;
+    }
+        .Texto2Ofertas{
+            border-bottom: 5px solid white;
+            width: 100%;
+            height: 15vh;
+            color:  black;
+
+            text-align: center;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 50px;
+            padding: 15px;
+            border: 5px solid rgb(36, 36, 224);
+        }
+        .DestinosOfertas{
+            border-bottom: 5px solid ;
+            width: 100%;
+            height: 75vh;
+
+            display: flex;
+            flex-direction: row;
+
+            gap: 20px;
+            padding: 10px;
+        }
+        
+        .Destino1{
+            border: 5px solid blue;
+            width: 33.5%;
+            height:100% ;
+            border-radius: 5px;
+        }
+            .Imagen1{
+            height: 50%;
+            width: 100%;
+            background-image: url(Imagenes/ibizaplaya.jpg);
+            background-repeat: no-repeat;
+            background-size:cover;
+            }
+               .Texto1{
+                height: 50%;
+                width: 100%;
+               }
+            .Destino2{
+                border: 5px solid blue;
+                width: 33.5%;
+                height:100% ;
+                border-radius: 5px;
+            }
+            .Imagen2{
+                height: 50%;
+                width: 100%;
+                background-image: url(Imagenes/Playa\ malaga.jpg);
+                background-repeat: no-repeat;
+                background-size:cover;
+                }
+                .Texto1{
+                    height: 50%;
+                    width: 100%;
+                   }
+              .Destino3{
+                border: 5px solid blue;
+                width: 33.5%;
+                height:100% ;
+                border-radius: 5px;
+              }
+              .Imagen3{
+                height: 50%;
+                width: 100%;
+                background-image: url(Imagenes/Barcelona.webp);
+                background-repeat: no-repeat;
+                background-size:cover;
+                }
+                .Texto1{
+                    height: 50%;
+                    width: 100%;
+                    padding: 40px;
+                    color:  black;
+                   }
+                   .Destino{
+                    font-family: Georgia, 'Times New Roman', Times, serif;
+                    font-size: 30px;
+                    text-align: center;
+                   }
+                   .Precio{
+                    font-family: Georgia, 'Times New Roman', Times, serif;
+                    font-size: 50px;
+                    text-align: center;
+                   }
+                   .Promocion{
+                    font-family: Georgia, 'Times New Roman', Times, serif;
+                    font-size: 15px;
+                    text-align: center;
+                   }
+    .BotonInformacion{
+        width: 100%;
+        height: 20vh;
+
+        display: flex;
+        justify-content: center;
+        padding: 30px;
+        color: white;
+
+        background-color: rgb(60, 60, 112);
+        border-bottom: 5px solid black;
+    }
+        .BotonIn{
+            border: 5px solid rgb(36, 36, 224);
+            width: 50%;
+            height: 10vh;
+            background-color: rgb(60, 60, 112);
+            font-size: 30px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            border-radius: 5px;
+        }
+        .y{
+            color: white;
+        }
+    .Bajo{
+        width: 100%;
+        height: 30vh;
+
+        display: flex;
+        flex-direction: row;
+        border-bottom: 5px solid rgb(36, 36, 224);
+    }
+        .Cuadro1{
+            border-left: 5px solid rgb(36, 36, 224);
+            width: 30%;
+            height: 100%;
+            padding: 20px;
+        }
+           .Marca{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 25px;
+            color: black;
+           }
+           .Premio{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 18px;
+            color: black;
+           }
+           .LogoPremio{
+            width: 80%;
+            height: 15vh;
+            background-repeat: no-repeat;
+            background-size:contain;
+            background-image: url(Imagenes/Premio.png);
+           }
+        .Vacio{
+            border-left: 5px solid rgb(36, 36, 224);
+            width: 40%;
+            display: flex;
+            flex-direction: column;  
+            padding: 40px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+            .RedesSociales{
+                width: 100%;
+                height: 35%;
+                font-size: 25px;
+            }
+            .Instagran{
+                width: 100%;
+                height: 35%;
+                font-size: 20px;
+
+                display: flex;
+                flex-direction:row ;
+
+                padding: 5px;
+            }
+                .i{
+                    width: 20px;
+                    height: 20px;
+                    border-radius: 2px;
+                }
+            .Facebook{
+                width: 100%;
+                height: 35%;
+                font-size: 20px;
+
+                display: flex;
+                flex-direction:row ;
+
+                padding: 5px;
+            }
+        .Cuadro2{
+            border-left: 5px solid rgb(36, 36, 224);
+            width: 30%;
+            height: 100%;
+            align-content: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-image: url(Imagenes/Screenshot_2.png);
+        }
+
