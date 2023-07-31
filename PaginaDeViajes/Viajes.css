@@ -1,0 +1,367 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.ViajesPrincipal{
+    height: 350vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+   .Barra{
+    height: 12vh;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    font-size: 26px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   }
+              .x{
+                color:rgb(36, 36, 224);
+              }
+        .Logo{
+            height: 15hv;
+            width: 15%;
+            margin: 5px;
+            border-radius: 5px;
+            border: 2px solid rgb(36, 36, 224);
+        }
+        .EspacioBarra{
+            height: 15hv;
+            width: 50%;
+        }
+        .Inicio{
+            height: 15vh;
+            width: 10%;
+            text-align: end;
+            padding: 25px;
+        }
+        .Viajes{
+            height: 15vh;
+            width: 10%;
+            text-align: end;
+            padding: 25px;
+        }
+        .Contacto{
+            height: 15vh;
+            width: 10%;
+            text-align: end;
+            padding: 25px;
+        }
+        .EspacioFinalBarra{
+            height: 15vh;
+            width: 5%;
+        }
+.Contenido{
+    width: 100%;
+    height: 100%;
+}
+    .Buscador{
+        width: 100%;
+        height: 20%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 200px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 0%;
+        background-image: url(Imagenes/fonfonContacto1.avif);
+    }
+        .Formulario{
+            width: 50vw;
+            height: 12vh;
+        }
+              .Barra1{
+                width: 100%;
+                height: 7vh;
+                font-size: 20px;
+                border-radius: 5px;
+                border: 2px solid blue;
+              }
+              .Boton{
+                width: 100%;
+                height: 5vh;
+                font-size: 20px;
+                border-radius: 5px;
+                border: 2px solid blue;
+              }
+.Destinos{
+    height: 308vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 5px;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.Titulo{
+    height: 40%;
+    width: 100%;
+    font-size:50px ;
+}
+.Descripcion{
+    height: 100%;
+    width: 100%;
+    font-size:20px ;
+    text-align: end;
+}
+.Precio{
+    height: 40%;
+    width: 100%;
+    text-align: right;
+    font-size: 60px;
+}
+.Horas{
+    height: 40%;
+    width: 100%;
+    text-align: right;
+}
+    .Destino1{
+        border: 5px solid blue;
+        height: 44vh;
+        width: 100%;
+        border-radius: 5px;
+
+        display: flex;
+        flex-direction: row;
+    }
+        .ImagenDestino1{
+            height: 100%;
+            width: 40%;
+
+           background-image: url(Imagenes/IbizaDestino.jpg);
+           background-size: cover;
+           background-position: 0%;
+        }
+        .TextoDestino1{
+            border-left: 5px dotted blue;
+            height: 100%;
+            width: 60%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 50px;
+            color: rgb(79, 79, 238);
+        }
+    .Destino2{
+        border: 5px solid blue;
+        height: 44vh;
+        width: 100%;
+        border-radius: 5px;
+
+        display: flex;
+        flex-direction: row;
+    }
+        .ImagenDestino2{
+           height: 100%;
+           width: 40%;
+
+           background-image: url(Imagenes/SasSebastianDestino.jpeg);
+           background-size: cover;
+           background-position: 0%;
+        }
+        .TextoDestino2{
+           border-left: 5px dotted blue;
+           height: 100%;
+           width: 60%;
+
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+           padding: 50px;
+           color: rgb(79, 79, 238);
+        }
+    .Destino3{
+        border: 5px solid blue;
+        height: 44vh;
+        width: 100%;
+        border-radius: 5px;
+
+        display: flex;
+        flex-direction: row;
+    }
+        .ImagenDestino3{
+           height: 100%;
+           width: 40%;
+
+           background-image: url(Imagenes/MalagaDestino.jpg);
+           background-size: cover;
+           background-position: 0%;
+        }
+        .TextoDestino3{
+            border-left: 5px dotted blue;
+            height: 100%;
+            width: 60%;
+ 
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 50px;
+            color: rgb(79, 79, 238);
+        }
+    .Destino4{
+        border: 5px solid blue;
+        height: 44vh;
+        width: 100%;
+        border-radius: 5px;
+
+        display: flex;
+        flex-direction: row;
+    }
+       .ImagenDestino4{
+           height: 100%;
+           width: 40%;
+
+           background-image: url(Imagenes/BarcelonaDestino.jpg);
+           background-size: cover;
+           background-position: 0%;
+        }
+        .TextoDestino4{
+            border-left: 5px dotted blue;
+            height: 100%;
+            width: 60%;
+ 
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 50px;
+            color: rgb(79, 79, 238);;
+        }
+    .Destino5{
+        border: 5px solid blue;
+        height: 44vh;
+        width: 100%;
+        border-radius: 5px;
+
+        display: flex;
+        flex-direction: row;
+    }
+        .ImagenDestino5{
+           height: 100%;
+           width: 40%;
+
+           background-image: url(Imagenes/MadridDestino.jpg);
+           background-size: cover;
+           background-position: 0%;
+        }
+        .TextoDestino5{
+            border-left: 5px dotted blue;
+            height: 100%;
+            width: 60%;
+ 
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 50px;
+            color: rgb(79, 79, 238);
+        }
+    .Destino6{
+        border: 5px solid blue;
+        height: 44vh;
+        width: 100%;
+        border-radius: 5px;
+
+        display: flex;
+        flex-direction: row;
+    }
+        .ImagenDestino6{
+           height: 100%;
+           width: 40%;
+
+           background-image: url(Imagenes/Girona.jpg);
+           background-size: cover;
+           background-position: 0%;
+        }
+        .TextoDestino6{
+            border-left: 5px dotted blue;
+            height: 100%;
+            width: 60%;
+ 
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 50px;
+            color: rgb(79, 79, 238);
+        }
+.Bajo{
+     width: 100%;
+    height: 30vh;
+        
+    display: flex;
+    flex-direction: row;
+    border-bottom: 5px solid rgb(36, 36, 224);
+}
+            .Cuadro1{
+                border-left: 5px solid rgb(36, 36, 224);
+                width: 30%;
+                height: 100%;
+                padding: 20px;
+            }
+               .Marca{
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-size: 25px;
+                color: black;
+               }
+               .Premio{
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-size: 18px;
+                color: black;
+               }
+               .LogoPremio{
+                width: 80%;
+                height: 13vh;
+                background-repeat: no-repeat;
+                background-size:contain;
+                background-image: url(Imagenes/Premio.png);
+               }
+            .Vacio{
+                border-left: 5px solid rgb(36, 36, 224);
+                width: 40%;
+                display: flex;
+                flex-direction: column;  
+                padding: 40px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+                .RedesSociales{
+                    width: 100%;
+                    height: 35%;
+                    font-size: 25px;
+                }
+                .Instagran{
+                    width: 100%;
+                    height: 35%;
+                    font-size: 20px;
+        
+                    display: flex;
+                    flex-direction:row ;
+        
+                    padding: 5px;
+                }
+                    .i{
+                        width: 20px;
+                        height: 20px;
+                        border-radius: 2px;
+                    }
+                .Facebook{
+                    width: 100%;
+                    height: 35%;
+                    font-size: 20px;
+        
+                    display: flex;
+                    flex-direction:row ;
+        
+                    padding: 5px;
+                }
+            .Cuadro2{
+                border-left: 5px solid rgb(36, 36, 224);
+                width: 30%;
+                height: 100%;
+                align-content: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-image: url(Imagenes/Screenshot_2.png);
+            }
