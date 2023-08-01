@@ -1,0 +1,191 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing:border-box;
+}
+:root{
+    --colorBorde: rgba(128, 128, 128, 0.524);
+}
+.JesusRondon{
+    width: 100%;
+    height: 335vh;
+
+    background-color: rgba(255, 255, 0, 0.697)
+}
+.BarraInicio{
+    width: 100%;
+    height: 15vh;
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+    .Logo{
+        font-size: 30px;
+        width: 50%;
+        padding: 10px;
+    }
+    .Espacio{
+        width: 5%;
+    }
+    .ExperienciaBarra{
+        width: 10%;
+        font-size: 20px;
+        padding: 35px;
+
+        transition:  0s linear;
+    }
+    .ExperienciaBarra:hover{
+        transform: rotate(10deg);
+    }
+    .EducacionBarra{
+        width:10% ;
+        font-size: 20px;
+        padding: 35px;
+
+        transition:  0s linear;
+    }
+    .EducacionBarra:hover{
+        transform: rotate(10deg);
+    }
+    .HabilidadesBarra{
+        width:10% ;
+        font-size: 20px;
+        padding: 35px;
+
+        transition:  0s linear;
+    }
+    .HabilidadesBarra:hover{
+        transform: rotate(10deg);
+    }
+    .DatosBarra{
+        width:10% ;
+        font-size: 20px;
+        font-size: 20px;
+        padding: 35px;
+
+        transition:  0s linear;
+    }
+    .DatosBarra:hover{
+        transform: rotate(10deg);
+    }
+.ContenidoPrincipal{
+    border-top: 5px solid black;
+}
+.Experiencia{
+    width: 100%;
+    height: 80vh;
+    
+    padding: 40px;
+    background-color: brown;
+    transition: background-color 5s;
+    border-top: 5ps solid black;
+}
+.Educacion{
+    width: 100%;
+    height: 80vh;
+
+    padding: 40px;
+    background-color: brown;
+    transition: background-color 6s;
+}
+.Habilidades{
+    width: 100%;
+    height: 80vh;
+
+    padding: 40px;
+    background-color: brown;
+    transition: background-color 7s;
+}
+.Datos{
+    width: 100%;
+    height: 80vh;
+
+    padding: 40px;
+    background-color: brown;
+    transition: background-color 8s;
+}
+   .Contenido {
+    border:15px solid var(--colorBorde);
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+
+    background-color: goldenrod;
+    display: flex;
+    flex-direction: row;
+    transition: transform(2s);
+   }
+   .Contenido:hover{
+    transform:scale(1.05) ;
+   }
+   .Texto{
+    
+    width: 60%;
+    height: 100%;
+    padding: 10px;
+   }
+       .ContenidoTexto{
+        font-family: "Courier New", monospace;
+        font-size: 30px;
+
+        padding: 35px;
+       }
+           .Parrafo1{
+            font-size: 60px;
+            transition: transform(2s);
+            text-decoration: aliceblue;
+           }
+           .Parrafo1:hover{
+             transform: scale(1.01);
+           }
+           .Parrafo1:active{
+            border: 3px solid rgba(255, 255, 0, 0.988);
+            width: 90%;
+            border-radius: 10px;
+           }
+   .Imagen1{
+    width: 40%;
+    height: 100%;
+
+    background-image:url(Imagenes/Gato.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0%;
+
+   }
+   .Imagen2{
+    width: 40%;
+    height: 100%;
+
+    background-image:url(Imagenes/Mounstruo.png) ;
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: 0%;
+   }
+   .Imagen3{
+    width: 40%;
+    height: 100%;
+
+    background-image:url(Imagenes/Chancho.png) ;
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: 0%;
+   }
+   .Imagen4{
+    width: 40%;
+    height: 100%;
+
+    background-image:url(Imagenes/Perro.png) ;
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: 0%;
+   }
+   .x{
+    color: black;
+   }
+   .y{
+    border-radius: 180px;
+   }
