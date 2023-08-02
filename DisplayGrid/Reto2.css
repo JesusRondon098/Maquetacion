@@ -1,0 +1,38 @@
+.Reto2Principal{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.Reto2A{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 2fr 1fr 2fr;
+    grid-template-rows: 2fr 1fr;
+    text-align: center;
+}
+    .A{
+        background-color: yellowgreen;
+    }
+    .B{
+        background-color: black;
+    }
+    .C{
+        background-color: yellowgreen;
+    }
+    .D{
+        background-color: black;
+    }
+    .E{
+        background-color: yellowgreen;
+    }
+    .F{
+        background-color: black;
+    }
+.Reto2B{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 2fr 1fr 2fr;
+    grid-template-rows: 2fr 1fr;
+    text-align: center;
+}

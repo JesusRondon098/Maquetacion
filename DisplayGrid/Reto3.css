@@ -1,0 +1,110 @@
+.Reto3{
+    display: grid;
+    height: 100%;
+    grid-template-columns: [x0]1fr [x1] ;
+    grid-template-rows: [y0]1fr [y1]6fr [y2]1fr [y3] ;
+}
+.Header{
+    background-color: black;
+    height: 100%;
+    color: white;
+    text-align: center;
+    padding: 35px;
+    font-size: xx-large;
+}
+.Contenido{
+    height: 100%;
+
+    display: grid;
+    grid-template-columns: [x0] 6fr [x1] 2fr [x3];
+}
+    .Tablas{
+        background-color: blue;
+        display: grid;
+        grid-template-columns: [x0]1fr [x1];
+        grid-template-rows:[y0] 1fr [y1] 3fr [y3] ;
+    }
+        .Tabla1{
+            border: 2px solid white;
+            width: 95%;
+            height: 120px;
+            margin: 13px;
+            padding: 10px;
+            color: white;
+            font-size: x-large;
+        }
+        .Tabla2{
+            display: grid;
+            grid-template-columns: [x0]2.05fr [x1]1fr [x2];
+            gap: 23px;
+            padding: 13px;
+        }
+            .Texto1{
+                border: 2px solid white; 
+                color: white;
+                font-size: x-large;
+                padding: 10px;
+            }
+            .Texto2{
+                border: 2px solid white; 
+                color: white;
+                font-size: x-large;
+                padding: 10px;
+            }
+    .Menu{
+        background-color: aqua;
+        display: grid;
+        grid-template-columns:  [x0]1fr [x1];
+        grid-template-rows: [y0] 1fr [y1] 1fr [y3] 1fr [y4] 1fr [y5];
+        padding: 10px;
+        gap: 10px;
+    }
+        .Cuadro1{
+            border: 2px solid black;
+            color: white;
+            text-align: center;
+            padding: 60px;
+            font-size: xx-large;
+        }
+        .Cuadro2{
+            border: 2px solid black;
+            background-color: black;
+            color: white;
+            padding: 65px;
+            text-align: center;
+        }
+        .Cuadro3{
+            border: 2px solid black;
+            background-color: black;
+            color: white;
+            padding: 65px;
+            text-align: center;
+        }
+        .Cuadro4{
+            border: 2px solid black;
+            background-color: black;
+            color: white;
+            padding: 65px;
+            text-align: center;
+        }
+.Footer{
+    background-color: blueviolet;
+    height: 100%;
+    display: grid;
+    grid-template-columns: [x0]1fr [x1]1fr [x2];
+    grid-template-rows: [y0]1fr [y1];
+    gap: 20px;
+    padding: 20px;
+}
+    .Footer1{
+        border: 2px solid black;
+        color: white;
+        font-size: x-large;
+        padding: 10px;
+    }
+    .Footer2{
+        border: 2px solid black;
+        color: white;
+        font-size: x-large;
+        padding: 10px;
+    }

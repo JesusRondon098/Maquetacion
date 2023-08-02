@@ -1,0 +1,90 @@
+.Reto4{
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+           "header header imagen"
+           "aside contenido contenido"
+           "aside contenido contenido"
+           "aside contenido contenido"
+           "final final final";
+}
+
+.Texto1{
+    grid-area: header;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: x-large;
+}
+.Texto2{
+    grid-area: imagen;
+    background-color: brown;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: x-large;
+}
+.Bloque1{
+    grid-area: aside;
+    background-color: rgba(255, 68, 0, 0.528);
+
+    display: grid;
+    grid-template-areas: 
+    "1"
+    "2"
+    "3";
+    padding: 12px;
+    gap: 30px;
+}
+     .Parrafo1{
+        grid-area: 1;
+        background-color: white;
+        color: rgba(255, 68, 0, 0.528);
+        text-align: center;
+        padding: 20px;
+        font-size: x-large;
+     }
+     .Parrafo3{
+        grid-area: 3;
+        background-color: white;
+        color: rgba(255, 68, 0, 0.528);
+        text-align: center;
+        padding: 20px;
+        font-size: x-large;
+     }
+.Bloque2{
+    grid-area: contenido;
+    background-color: orangered;
+
+    display: grid;
+    grid-template-areas: 
+    "4"
+    "5";
+    padding: 12px;
+    gap: 10px;
+}
+     .Contenido{
+        border: 2px solid white;
+        color: white;
+        text-align: center;
+        padding: 5px;
+        font-size: x-large;
+     }
+     .Texto{
+        border: 2px solid white;
+        color: white;
+        text-align: center;
+        padding: 5px;
+        font-size: x-large;
+     }
+.Final{
+    grid-area: final;
+    background-color: brown;
+    color: white;
+    text-align: center;
+    font-size: x-large;
+    padding: 5px;
+}
+    
+    
