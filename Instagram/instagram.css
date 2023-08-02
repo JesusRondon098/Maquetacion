@@ -1,0 +1,220 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.InstagranPrincipal{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.ContenidoInstagram{
+    width: 60vw;
+    height: 95vh;
+
+    display: flex;
+    flex-direction: row;
+}
+    .ImagenInstagram{
+        width: 50%;
+        height: 100%;
+
+        background-image: url(imagenes/ImagenInstagran.png);
+        background-position: 0%;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .TextoInstagram{
+        width: 50%;
+        height: 100%;
+
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .Formulario1{
+        border: 1px solid rgba(0, 0, 0, 0.264);
+        width: 100%;
+        height: 70%;
+
+    }
+        .Titulo{
+            width: 100%;
+            height: 25%;
+
+            text-align: center;
+            padding: 45px;
+            font-size: 40px;
+            font-family: Borel;
+        }
+        .Formulario{
+            width: 100%;
+            height: 55%;
+
+            padding: 30px;
+            text-align: center;
+            gap: 10px;
+        }
+        .ContenidoFormulario{
+            gap: 10px;
+        }
+             .Usuario{
+                width: 90%;
+                height: 6vh;
+                padding: 5px;
+
+                border: 1px solid rgba(0, 0, 0, 0.264);
+                border-radius: 5px;
+                margin: 3px;
+             }
+             .Contraseña{
+                width: 90%;
+                height: 6vh;
+                padding: 5px;
+
+                border: 1px solid rgba(0, 0, 0, 0.264);
+                border-radius: 5px;
+             }
+             .Enviar{
+                width: 90%;
+                height: 6vh;
+                padding: 5px;
+
+                background-color: rgb(66, 174, 204);
+                color: white;
+                font-size: 18px;
+                border: 2px solid white;
+                border-radius: 10px;
+             }
+        .Facebook{
+            width: 100%;
+            height: 20%;
+        }
+        .Parrafo1{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+
+
+            width: 100%;
+            height: 35%;
+        }
+           .Vacio{
+            width: 15%;
+           }
+           .x{
+            color: blue;
+            font-family: Arial, Helvetica, sans-serif;
+           }
+           .TextoFacebook{
+            width: 70%;
+            font-size: 16px;
+
+            display: flex;
+            flex-direction: row;
+            padding: 3px;
+           }
+           .ImagenFacebook{
+            border-radius: 3px;
+            width: 25px;
+            height: 24px;
+           }
+        .Parrafo2{
+            
+            height: 65%;
+            text-align: center;
+            padding: 12px;
+            color: rgba(0, 0, 0, 0.587);
+        }
+.Registrate{
+    border:1px solid rgba(0, 0, 0, 0.264);
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+    padding: 20px;
+}
+.Descargalo{
+    width: 100%;
+    height: 15vh;
+    background-image: url(imagenes/Descarga2.png);
+    background-position: 0%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.Bajo{
+    width: 100%;
+    height: 15vh;
+}
+.Bajo1{
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+
+    font-size: 13px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+   .colorlink3{
+    color: rgba(0, 0, 0, 0.587);
+   }
+   .VacioBajo{
+    width: 25px;
+   }
+.Bajo2{
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    color: rgba(0, 0, 0, 0.587);
+
+    font-size: 13px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+@media screen and (max-width: 575px){
+  .body{
+    flex-direction: column;
+    align-items: center;
+  }  
+  .TextoInstagram{
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+  }
+  .ImagenInstagram{
+    display: none;
+  }
+  .Formulario{
+    width: 100%;
+  }
+  .ContenidoFormulario{
+    width: 100%;
+  }
+  .O{
+    text-align: center;
+    font-size: 12px;
+  }
+  .Bajo{
+    justify-content: center;
+  }
+  .colorlink3{
+    font-size: 11.5px;
+  }
+  .Bajo2{
+    text-align: center;
+  }
+  .Bajo1{
+    flex-wrap:wrap;
+  }
+  .TextoInstagram{
+    align-items: center;
+    text-align: center;
+  }
+  .VacioBajo{
+    width: 2px;
+  }
+}  
