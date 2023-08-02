@@ -1,0 +1,33 @@
+.Reto1{
+    height: 100vh;
+    display: grid;
+
+    grid-template-columns: 40% 20% 40%;
+    grid-template-rows: 50% 50%;
+
+    text-align: center;
+}
+.A{
+    background-color: green;
+    height: 100%;
+}
+.B{
+    background-color: rgba(255, 68, 0, 0.755);
+    height: 100%;
+}
+.C{
+    background-color: orangered;
+    height: 100%;
+}
+.D{
+    background-color: rgb(255, 0, 0);
+    height: 100%;
+}
+.E{
+    background-color: blue;
+    height: 100%;
+}
+.F{
+    background-color: yellow;
+    height: 100%; 
+}
