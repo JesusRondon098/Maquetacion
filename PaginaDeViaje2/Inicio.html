@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viajes.com</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Borel&family=Handjet:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Borel&family=Handjet:wght@300&family=Lobster&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arimo&family=Borel&family=Handjet:wght@300&family=Lobster&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arimo&family=Borel&family=Handjet:wght@300&family=Lobster&display=swap" rel="stylesheet">
+<link rel="icon" href="imagenes2/Logosinfondo.png">
+</head>
+<body>
+    <link rel="stylesheet" href="Inicio.css">
+
+    <div class="Contenedor">
+        <div class="BarraInicio" id="barra">
+            <div class="VacioInicioBarra"></div>
+            <div class="LogoBarra"></div>
+            <div class="VacioBarra"></div>
+            <div class="DescripcionBarra"><a href="#descripcion" style="text-decoration:none" class="x">Descripción</a></div>
+            <div class="OfertasBarra"><a href="#ofertas" style="text-decoration:none" class="x">Ofertas</a></div>
+            <div class="FormularioBarra"><a href="#Formulario" style="text-decoration:none" class="x">Viajes</a></div>
+        </div>
+        <div class="Descripcion" id="descripcion">
+            <div class="VacioDescripcion"></div>
+            <div class="TextoDescripcion">
+                <p class="Parrafo1">ES HORA DE VIAJAR!!</p><br><br>
+                <p class="Parrafo2">APROVECHA NUESTROS DESCUENTOS POR TEMPORADA.</p>
+            </div>
+            <div class="VacioDescripcion"></div>
+        </div>
+        <div class="Ofertas" id="ofertas">
+            <div class="Parrafo3">
+                <p><a href="#barra" style="text-decoration:none" class="x">OFERTAS DEL MES</a></p>
+            </div>
+            <div class="Parrafo4">
+                <div class="Oferta1">
+                    <div class="ImagenOferta1"></div>
+                    <div class="TextoOferta1">
+                        <p>BARCELONA</p>
+                        <p>Desde: 50€</p>
+                    </div>
+                </div>
+                <div class="Oferta2">
+                    <div class="ImagenOferta2"></div>
+                    <div class="TextoOferta2">
+                        <p>SEVILLA</p>
+                        <p>Desde: 80€</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="Formulario" id="Formulario">
+            <div class="Pregunta">
+                <p><a href="#barra" style="text-decoration:none" class="x">¿A DONDE VAS?</a></p>
+            </div>
+            <form class="ContenidoFOrmulario">
+                <input type="text" placeholder="NOMBRE" class="nombre" id="nombre">
+                <input type="text" placeholder="PAIS DE ORIGEN" class="origen" id="origen">
+                <input type="text" placeholder="PAIS DE DESTINO" class="destino" id="destino">
+                <input type="number" placeholder="Nº DE PERSONAS" class="numero" id="numero">
+                <input type="date" placeholder="FECHA" id="fecha" class="fecha"><br><br>
+                <input type="button" value="SOLICITAR INFORMACION" class="boton1" onclick="mostrar()">
+                <input type="button" value="FILTRAR" class="boton2" onclick="filtrar()">
+                <button type="reset" value="Limpiar" class="boton3">LIMPIAR</button>
+            </form>
+            <div class="Viajes" id="viajes">
+                <div class="ContenidoViajes">
+                     <p id="Texto1"></p>
+                     <p id="Texto2"></p>
+                     <p id="Texto3"></p>
+                     <p id="Texto4"></p>
+                     <p id="Texto5"></p>
+                </div>
+                <div class="modal" id="filtrar">
+                    <div class="modal-content">
+                        <p id="Texto6"></p>
+                        <P id="Texto7"></P>
+                        <p id="Texto8"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="BarraFinal">
+            <div class="Cuadrado1">
+                <P>CONTACTO:</P>
+                <p>ESCRIBENOS AL: +34 605 632 213</p>
+                <P>NUESTRO CORREO: AGENCIADEVIAJES@CORREO.COM</P>
+                <p>*CON GUSTO LO ATENDEREMOS.*</p>
+            </div>
+            <div class="Cuadrado2"></div>
+            <div class="Cuadrado3">
+                <p>GRACIAS POR CONFIAR EN NOSOTROS.</p>
+            </div>
+        </div>
+    </div>
+   <script src="Inicio.js"></script> 
+</body>
+</html>

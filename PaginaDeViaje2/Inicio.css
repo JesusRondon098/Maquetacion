@@ -1,0 +1,354 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing:border-box;
+}
+/* Contenedor */
+.Contenedor{
+    width: 100vw;
+    height: 350vh;
+}
+/* Barra de inicio */
+.BarraInicio{
+    border-top: 2px solid rgba(38, 255, 0, 0.577);
+    width: 100vw;
+    height: 5%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    background-color: rgba(38, 255, 0, 0.577);
+    /* background-color: rgba(165, 42, 42, 0.92); */
+}
+    .VacioInicioBarra{
+        width: 10%;
+    }
+    .LogoBarra{
+       width: 10%;
+
+       background-image: url(imagenes2/Logosinfondo.png);
+       background-size: contain;
+       background-position: 0%;
+       background-repeat: no-repeat;
+
+       display: flex;
+       justify-content: center;
+    }
+    .VacioBarra{
+        width: 30%;
+    }
+    .DescripcionBarra{
+        width: 20%;
+
+        padding: 25px;
+        font-family: Handjet;
+        font-size: 40px;
+    }
+    .OfertasBarra{
+        width: 15%;
+
+        padding: 25px;
+        font-family: Handjet;
+        font-size: 40px;
+    }
+    .FormularioBarra{
+        width: 15%;
+
+        padding: 25px;
+        font-family: Handjet;
+        font-size: 40px;
+    }
+/* Descripcion */
+.Descripcion{
+    height: 25%;
+    width: 100vw;
+
+    background-image: url(imagenes2/FondoChica.jpg);
+    background-repeat: no-repeat;
+    background-position:0%;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: row;
+
+    gap: 10px;
+    padding: 10px;
+}
+   .VacioDescripcion{
+    width: 20%;
+   }
+   .TextoDescripcion{
+    width: 80%;
+
+    font-family:Handjet;
+
+    display: flex;
+    flex-direction: column;
+    padding: 75px;
+   }
+       .Parrafo1{
+          font-size: 100px;
+          color: black;
+          text-align: left;
+       }
+       .Parrafo2{
+        font-size: 80px;
+        color: black;
+        text-align: right;
+     }
+/* Ofertas */
+.Ofertas{
+    height: 37%;
+
+    gap: 10px;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+    background-color: rgba(255, 255, 0, 0.709);
+}
+    .Parrafo3{
+        border: 3px solid brown;
+        height: 20%;
+        width: 70%;
+
+        font-family:Handjet;
+        font-size: 80px;
+        text-align: center;
+        padding: 25px;
+
+        border-radius: 3px;
+    }
+    .Parrafo4{
+        height: 80%;
+        width: 100%;
+
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+        .Oferta1{
+            border: 3px solid brown;
+            width: 50%;
+
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            padding: 10px;
+
+            border-radius: 3px;
+        }
+            .ImagenOferta1{
+                
+                height: 70%;
+
+                background-image: url(imagenes2/Barcelona.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: 0%;
+
+                border-radius: 3px;
+            }
+            .TextoOferta1{
+                height: 30%;
+
+                text-align: center;
+                font-family:Handjet;
+                font-size: 70px;
+                padding: 10px;
+
+                border-radius: 3px;
+            }
+        .Oferta2{
+            border: 3px solid brown;
+            width: 50%;
+
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            padding: 10px;
+
+            border-radius: 3px;
+        }
+            .ImagenOferta2{
+                
+                height: 70%;
+
+                background-image: url(imagenes2/Sevilla.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: 0%;
+
+                border-radius: 3px;
+            }
+            .TextoOferta2{
+               
+                height: 30%;
+
+                text-align: center;
+                font-family:Handjet;
+                font-size: 70px;
+                padding: 10px;
+
+                border-radius: 3px;
+            }
+/* FORMULARIO */
+.Formulario{
+   height: 30%;
+
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   align-content: center;
+
+   background-color: aqua;
+
+   padding: 10px;
+}
+      .Pregunta{
+         border: 3px solid orange;
+         height: 20%;
+         width: 70%;
+
+         text-align: center;
+         padding: 25px;
+
+         font-family:Handjet;
+         font-size: 70px;
+         border-radius: 3px;
+      }
+      .ContenidoFOrmulario{
+         height: 10%;
+         width: 95%;
+         padding: 20px;
+
+         display: flex;
+         align-content: center;
+         align-items: center;
+
+         text-align: center;
+         gap: 5px;
+      }
+        .nombre{
+            width: 20%;
+        }
+        .numero{
+            width: 15%;
+        }
+        .fecha{
+            width: 20%;
+        }
+        .boton1{
+            width: 20%;
+        }
+        .boton2{
+            width: 10%;
+        }
+        .boton3{
+            width: 10%;
+        }
+      .Viajes{
+         height: 80%;
+         width: 100%;
+
+         display: flex;
+         flex-direction: column;
+         gap: 10px;
+         padding: 10px;
+      }
+        .ContenidoViajes{
+            border: 2px solid green;
+            height: 15%;
+
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            font-family:Handjet;
+
+            font-size: 170%;
+            background-color: rgba(0, 128, 0, 0.601);
+            padding: 15px;
+            border-radius: 5px;
+        }
+        #filtrar{
+            border: 3px solid green;
+            height: 80%;
+
+            background-color: rgba(0, 128, 0, 0.601);
+            padding: 20px;
+            border-radius: 5px;
+            font-family:Lobster;
+        }
+            #Texto6{
+                font-size: 80px;
+                text-align: left;
+            }
+            #Texto7{
+                font-size: 30px;
+                text-align: left;
+
+                font-family: Lobster;
+            }
+            #Texto8{
+                font-size: 40px;
+                text-align: end;
+            }
+
+/* Barra Final */
+.BarraFinal{
+   
+    height: 10%;
+
+    display: flex;
+    justify-content: space-between;
+
+    background-image: url(imagenes2/FondoOfertas.jpg);
+    background-repeat: no-repeat;
+    background-position: 0%;
+    background-size: cover;
+
+    padding: 10px;
+    gap: 10px;
+}
+    .Cuadrado1{
+        border: 2px solid yellow;
+        width: 40%;
+
+        background-color: rgba(255, 255, 0, 0.511);
+        border-radius: 5px;
+
+        font-family:Handjet;
+        font-size: 35px;
+
+        padding: 10PX;
+    }
+    .Cuadrado2{
+        border: 2px solid rgb(0, 255, 0);
+        width: 15%;
+
+        background-color: rgba(0, 128, 0, 0.62);
+        border-radius: 5px;
+
+        background-image: url(imagenes2/ninja-removebg-preview.png);
+        background-position: 0%;
+        background-repeat: no-repeat;
+        background-size: contain;
+
+        padding: 20px;
+    }
+    .Cuadrado3{
+        border: 2px solid rgb(255, 0, 0);
+        width:40%;
+
+        background-color: rgba(255, 0, 0, 0.681);
+        border-radius: 5px;
+
+        font-family:Handjet;
+        font-size: 60PX;
+        padding: 30PX;
+    }
