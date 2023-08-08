@@ -45,12 +45,13 @@
 
 <!-- MODAL -->
 <div class="p-6" >
-<div id="prueba" class="modal m-5" style="height: 200px; width: 20%; align-items: center;">
-    <div class="modal-content">
-        <p id="Parrafo1"></p>
-        <p id="Parrafo2"></p>
+<div id="prueba" class="modal m-5" style="height: 100%; width: 100%; align-items: center;" >
+    <div class="modal-content" style=" width: 600px;" >
+      <h2 class="modal-header" style="text-align: center;">Bienvenid@ al carrito de compras</h2>
+        <p id="Parrafo1" style="border-top: 5px solid red;"></p>
+        <h2 id="Parrafo2" style="border-top: 5px solid purple ;"></h2>
         <button id="cerrar">cerrar</button>
-        <button id="sumar" onclick="suma()">sumar</button>
+        <button id="sumar" onclick="sumar()" >sumar</button>
     </div>
 </div>
 </div>
@@ -63,8 +64,8 @@
         <div class="card-body">
           <h5 class="card-title " id="Prenda1" >Pantalon suelto gris</h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <p class="card-price" id="Precio1" >20</p>
-          <button type="submit" id="boton1" class="bg-black" style="color: white; border-radius: 5px; border: 2px solid black;" onclick="recojer1()">Añadir al carrito</button>
+          <p class="card-price" id="Precio1" >20€</p>
+          <a type="submit" id="boton1" class="bg-black" value="20" style="color: white; border-radius: 5px; border: 2px solid black;" onclick="recojer1()">Añadir al carrito</a>
         </div>
         </div>
         <div class="card m-2" style="width: 16rem;">
@@ -72,8 +73,8 @@
            <div class="card-body">
              <h5 class="card-title" id="Prenda2">Vestido Tunico</h5>
              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-             <p class="card-price" id="Precio2">18</p>
-             <button type="button" id="boton2" class="bg-black" style="color: white; border-radius: 5px; border: 2px solid black;" onclick="recojer1()">Añadir al carrito</button>
+             <p class="card-price" id="Precio2">18€</p>
+             <button type="button" id="boton2" class="bg-black" style="color: white; border-radius: 5px; border: 2px solid black;" onclick="recojer2()">Añadir al carrito</button>
         </div>
         </div>
            <div class="card m-2" style="width: 16rem;">
@@ -81,8 +82,8 @@
            <div class="card-body">
              <h5 class="card-title" id="Prenda3">Falda Mid Print</h5>
              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-             <p class="card-price" id="Precio3">12</p>
-             <button type="button" id="boton3" class="bg-black" style="color: white; border-radius: 5px; border: 2px solid black;"onclick="recojer1()">Añadir al carrito</button>
+             <p class="card-price" id="Precio3">12€</p>
+             <button type="button" id="boton3" class="bg-black" style="color: white; border-radius: 5px; border: 2px solid black;"onclick="recojer3()">Añadir al carrito</button>
         </div>
         </div>
         <div class="card m-2" style="width: 16rem;">
@@ -90,8 +91,8 @@
            <div class="card-body">
              <h5 class="card-title" id="Prenda4">Cardigan Largo Rayas</h5>
              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-             <p class="card-price" id="Precio4">22</p>
-             <button type="button" id="boton4" class="bg-black" style="color: white; border-radius: 5px; border: 2px solid black;"onclick="recojer1()">Añadir al carrito</a>
+             <p class="card-price" id="Precio4">22€</p>
+             <button type="button" id="boton4" class="bg-black" style="color: white; border-radius: 5px; border: 2px solid black;"onclick="recojer4()">Añadir al carrito</a>
         </div>
         </div>
     </div>
@@ -101,8 +102,8 @@
         <div class="card-body">
           <h5 class="card-title" id="Prenda5">Falda mini zebra</h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <p class="card-price" id="Precio5" type="number">22</p>
-          <button type="button" id="boton5" class="bg-black" style="color: white; border-radius: 5px; border: 2px solid black;"onclick="recojer1()" >Añadir al carrito</a>
+          <p class="card-price" id="Precio5" type="number">36€</p>
+          <button type="button" id="boton5" class="bg-black" style="color: white; border-radius: 5px; border: 2px solid black;"onclick="recojer5()" >Añadir al carrito</a>
         </div>
         </div>
         <div class="card m-2" style="width: 16rem;">
@@ -110,8 +111,8 @@
            <div class="card-body">
              <h5 class="card-title" id="Prenda6">Mono overol</h5>
              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-             <p class="card-price" id="Precio6">38</p>
-             <button type="button" id="boton6" class="bg-black" style="color: white; border-radius: 5px; border: 2px solid black;"onclick="recojer1()">Añadir al carrito</a>
+             <p class="card-price" id="Precio6">38€</p>
+             <button type="button" id="boton6" class="bg-black" style="color: white; border-radius: 5px; border: 2px solid black;"onclick="recojer6()">Añadir al carrito</a>
         </div>
         </div>
         <div class="card m-2" style="width: 16rem;">
@@ -119,8 +120,8 @@
            <div class="card-body">
              <h5 class="card-title" id="Prenda7">Vestido jersey</h5>
              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-             <p class="card-price" id="Precio7">20</p>
-             <button type="button" id="boton7" class="bg-black" style="color: white; border-radius: 5px; border: 2px solid black;"onclick="recojer1()">Añadir al carrito</a>
+             <p class="card-price" id="Precio7">20€</p>
+             <button type="button" id="boton7" class="bg-black" style="color: white; border-radius: 5px; border: 2px solid black;"onclick="recojer7()">Añadir al carrito</a>
         </div>
         </div>
         <div class="card m-2" style="width: 16rem;">
@@ -128,8 +129,8 @@
            <div class="card-body">
              <h5 class="card-title" id="Prenda8">Pantalon ancho</h5>
              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-             <p class="card-price" id="Precio8">30</p>
-             <button type="button" id="boton8" class="bg-black" style="color: white; border-radius: 5px; border: 2px solid black;"onclick="recojer1()">Añadir al carrito</a>
+             <p class="card-price" id="Precio8">30€</p>
+             <button type="button" id="boton8" class="bg-black" style="color: white; border-radius: 5px; border: 2px solid black;"onclick="recojer8()">Añadir al carrito</a>
         </div>
         </div>
     </div>
