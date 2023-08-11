@@ -1,100 +1,78 @@
-function boton(){
+
+let prendas={
+    prenda1 :{
+        prenda :"Pantalon suelto gris",
+        precio : 20
+    },
+    prenda2 :{
+        prenda :"Vestido Tunico",
+        precio : 18
+    },
+    prenda3 :{
+        prenda :"Falda Mid Print",
+        precio : 12
+    },
+    prenda4 :{
+        prenda :"Cardigan Largo Rayas",
+        precio : 22
+    },
+    prenda5 :{
+        prenda :"Falda mini zebra",
+        precio : 36
+    },
+    prenda6 :{
+        prenda :"Mono overol",
+        precio : 38
+    },
+    prenda7 :{
+        prenda :"Vestido jersey",
+        precio : 20
+    },
+    prenda8 :{
+        prenda :"Pantalon ancho",
+        precio : 30
+    }
+}
+
+let array = []
+jQuery(() =>{
+
+    $("#boton1").on("click",()=>{
+        array.push(prendas.prenda1) 
+    })
+    $("#boton2").on("click",()=>{
+        array.push(prendas.prenda2)
+    })
+    $("#boton3").on("click",()=>{
+        array.push(prendas.prenda3)
+    })
+    $("#boton4").on("click",()=>{
+        array.push(prendas.prenda4)
+    })
+    $("#boton5").on("click",()=>{
+        array.push(prendas.prenda5)
+    })
+    $("#boton6").on("click",()=>{
+        array.push(prendas.prenda6)
+    })
+    $("#boton7").on("click",()=>{
+        array.push(prendas.prenda7)
+    })
+    $("#boton8").on("click",()=>{
+        array.push(prendas.prenda8)
+    })
+
+
     $("#carrito").on("click",()=>{
         $("#prueba").show()
+        let compra = 0;
+        for(prenda of array){
+            $("#Parrafo1").append("◉Prenda: "+ prenda.prenda +" - Precio:"+prenda.precio+"€ <br>");
+            compra += prenda.precio
+        }
+        $("#Parrafo2").append("Total: "+ compra + "€ <br>")
     })
     $("#cerrar").on("click",()=>{
         $("#prueba").hide()
     })
-}
-
-let array = []
-function recojer1() {
-    let prenda1 = $("#Prenda1")
-    let precio1 = $("#Precio1")
-
-    $("#boton1").on("click",()=>{
-        $("#Parrafo1").append(prenda1),
-        $("#Parrafo1").append(precio1),
-        array.push(20)
-    })
-    console.log(array);
-}
-function recojer2() {
-    let prenda2 = $("#Prenda2")
-    let precio2 = $("#Precio2")
-    $("#boton2").on("click",()=>{
-        $("#Parrafo1").append(prenda2),
-        $("#Parrafo1").append(precio2),
-        array.push(18)
-    })
-    console.log(array);
-}
-function recojer3() {
-    let prenda3 = $("#Prenda3")
-    let precio3 = $("#Precio3")
-    $("#boton3").on("click",()=>{
-        $("#Parrafo1").append(prenda3),
-        $("#Parrafo1").append(precio3),
-        array.push(12)
-    })
-    console.log(array);
-}
-function recojer4() {
-    let prenda4 = $("#Prenda4")
-    let precio4 = $("#Precio4")
-    $("#boton4").on("click",()=>{
-        $("#Parrafo1").append(prenda4),
-        $("#Parrafo1").append(precio4),
-        array.push(22)
-    })
-    console.log(array);
-}
-function recojer5() {
-    let prenda5 = $("#Prenda5")
-    let precio5 = $("#Precio5")
-    $("#boton5").on("click",()=>{
-        $("#Parrafo1").append(prenda5),
-        $("#Parrafo1").append(precio5),
-        array.push(36)
-    })
-    console.log(array);
-}
-function recojer6() {
-    let prenda6 = $("#Prenda6")
-    let precio6 = $("#Precio6")
-    $("#boton4").on("click",()=>{
-        $("#Parrafo1").append(prenda6),
-        $("#Parrafo1").append(precio6),
-        array.push(38)
-    })
-    console.log(array);
-}
-function recojer7() {
-    let prenda7 = $("#Prenda7")
-    let precio7 = $("#Precio7")
-    $("#boton4").on("click",()=>{
-        $("#Parrafo1").append(prenda7),
-        $("#Parrafo1").append(precio7),
-        array.push(20)
-    })
-    console.log(array);
-}
-function recojer8() {
-    let prenda8 = $("#Prenda8")
-    let precio8 = $("#Precio8")
-    $("#boton8").on("click",()=>{
-        $("#Parrafo1").append(prenda8),
-        $("#Parrafo1").append(precio8),
-        array.push(30)
-    })
-    console.log(array);
-}
-let suma = 0;
-let resultado ;
-function sumar(){
-    for(let i = 0; i < array.length; i++){
-        suma += array[i]
-        resultado = suma / 2
-    }
-    $("#Parrafo2").append(` El total es: ${resultado}€`)
-}
+})
