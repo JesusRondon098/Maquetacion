@@ -6,13 +6,10 @@
 /* Main */
 main{
    
-    height: 100vh;
+    height: 100%;
     width: 100vw;
 
-    background-image: url(Imagenes/FondoMain.jpg);
-    background-position: 0%;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: goldenrod;
 
     display: flex;
     flex-direction: column;
@@ -22,7 +19,7 @@ main{
 .header{
    
     width: 100%;
-    height: 10%;
+    height: 5%;
     font-size: 30px;
 
     padding: 2px;
@@ -45,7 +42,7 @@ button{
 .form{
     border-top: 3px dashed green;
     width: 100%;
-    height: 60%;
+    height: 30%;
 
     display: flex;
     flex-direction: row;
@@ -62,13 +59,22 @@ button{
     background-size: cover;
     border-radius: 8px;
 }
+.imagen_1{
+    border: 2px solid gray;
+    width: 50%;
+    background-image: url(Imagenes/pareja-punk-sorprendida-esparce-palomitas-mira.jpg);
+    background-repeat: no-repeat;
+    background-position: 0%;
+    background-size: cover;
+    border-radius: 8px;
+}
 .Formulario{
     
     width: 50%;
 
     display: flex;
     flex-direction: column;
-    background-color: rgba(128, 128, 128, 0.568);
+    background-color: rgba(165, 42, 42, 0.527);
     border-radius: 8px;
 }
 
@@ -109,10 +115,57 @@ input{
     border: 1px solid black;
     border-radius: 5px;
 }
+/* card */
+#Intento{
+    width: 100%;
+    
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    grid-row:auto;
+    gap: 10px;
+    padding: 3px;
+}
+
+.Contenido{
+    border: 5px solid black;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 255, 0.473);
+}
+img{
+    width: 260px;
+    height: 50%;
+    background-position: 0%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.h{
+    padding: 5px;
+    width: 250px;
+    height: 25%;
+    text-align: left;
+}
+.p{
+    width: 100%;
+    height: 5%;
+}
+.a{
+    width: 260px;
+    height: 20%;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
 /* footer */
 .footer{
     border-top: 3px dashed green;
     background-color: goldenrod;
     height: 10%;
     padding: 20px;
+    display: flex;
+    justify-content: center;
 }
